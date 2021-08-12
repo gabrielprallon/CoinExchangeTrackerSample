@@ -1,4 +1,3 @@
-Default
 RSpec.configure do |config|
   config.before(:each) do
     stub_request(:get, /currencydatafeed.com/)
